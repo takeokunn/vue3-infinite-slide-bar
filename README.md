@@ -1,6 +1,6 @@
 # vue3-infinite-slide-bar
 
-Inspire by [vue-infinite-slide-bar](biigpongsatorn/vue-infinite-slide-bar)
+Inspire by [vue-infinite-slide-bar](https://github.com/biigpongsatorn/vue-infinite-slide-bar)
 
 ## Install
 
@@ -25,7 +25,7 @@ $ yarn add vue3-infinite-slide-bar
 
 <script>
 import { defineComponent } from 'vue';
-import InfiniteSlideBar from 'vue3-infinite-slide-bar/src';
+import InfiniteSlideBar from 'vue3-infinite-slide-bar;
 
 export default defineComponent({
     components: {

@@ -1,8 +1,8 @@
 {
   "name": "vue3-infinite-slide-bar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Infinite slide bar component.",
-  "main": "lib/bundle.js",
+  "main": "src/index.vue",
   "files": [
     "lib",
     "src"
