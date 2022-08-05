@@ -25,7 +25,7 @@ $ yarn add vue3-infinite-slide-bar
 
 <script>
 import { defineComponent } from 'vue';
-import InfiniteSlideBar from '../src/index.vue';
+import InfiniteSlideBar from 'vue-infinite-slide-bar';
 
 export default defineComponent({
     components: {
