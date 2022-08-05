@@ -1,10 +1,11 @@
 {
   "name": "vue3-infinite-slide-bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Infinite slide bar component.",
   "main": "lib/bundle.js",
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -7,7 +7,10 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './lib'),
         publicPath: '/lib',
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        library: 'tutorialib',
+        libraryTarget: 'umd'
+
     },
     module: {
         rules: [{
