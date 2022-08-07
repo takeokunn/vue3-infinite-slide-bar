@@ -10,7 +10,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development --config webpack.config.development.js --progress --watch",
-    "production": "webpack --mode production --config webpack.config.production.js --progress"
+    "production": "webpack --mode production --config webpack.config.production.js --progress",
+    "lint": "eslint src/index.vue",
+    "lint:fix": "prettier --write src/index.vue"
   },
   "repository": {
     "type": "git",
