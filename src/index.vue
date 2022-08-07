@@ -17,20 +17,20 @@ export default defineComponent({
         barStyle: Object,
         duration: {
             type: String,
-            default: '12s'
+            default: '12s',
         },
         direction: {
             type: String,
-            default: 'normal'
+            default: 'normal',
         },
         delay: {
             type: String,
-            default: '0s'
+            default: '0s',
         },
-        paused : {
+        paused: {
             type: Boolean,
-            default: false
-        }
+            default: false,
+        },
     },
     setup(props) {
         return {
@@ -39,11 +39,11 @@ export default defineComponent({
                 'animation-duration': props.duration,
                 'animation-direction': props.direction,
                 'animation-delay': props.delay,
-                'animation-play-state' : (props.paused) ? 'paused' : 'running'
-            }
+                'animation-play-state': props.paused ? 'paused' : 'running',
+            },
         }
-    }
-});
+    },
+})
 </script>
 
 <style scoped>
