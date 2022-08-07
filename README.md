@@ -2,6 +2,9 @@
 
 Inspire by [vue-infinite-slide-bar](https://github.com/biigpongsatorn/vue-infinite-slide-bar)
 
+<img src="https://raw.githubusercontent.com/takeokunn/vue3-infinite-slide-bar/master/ex.gif"/>
+
+
 ## Install
 
 ```shell
@@ -16,7 +19,7 @@ $ yarn add vue3-infinite-slide-bar
 
 ## Usage
 
-```vue
+```html
 <template>
     <infinite-slide-bar :barStyle="{ background: '#42b883', padding: '5px 0' }">
         <span style="color: #fff;">Helo World, I love Vue Infinite Slide Bar</span>
