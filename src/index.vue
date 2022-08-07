@@ -14,7 +14,10 @@ import { defineComponent } from 'vue'
 export default defineComponent({
     name: 'InfiniteSlideBar',
     props: {
-        barStyle: Object,
+        barStyle: {
+            type: Object,
+            default: () => {},
+        },
         duration: {
             type: String,
             default: '12s',
